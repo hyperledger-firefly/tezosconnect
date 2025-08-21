@@ -14,7 +14,7 @@ RUN make
 RUN DB_MIGRATIONS_DIR=$(go list -f '{{.Dir}}' github.com/hyperledger/firefly-transaction-manager/pkg/ffcapi | sed 's|pkg/ffcapi|db|') \
  && cp -R $DB_MIGRATIONS_DIR db
 
-FROM debian:buster-slim
+FROM debian:bookworm-slim
 WORKDIR /tezosconnect
 RUN chgrp -R 0 /tezosconnect \
     && chmod -R g+rwX /tezosconnect
