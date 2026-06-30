@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hyperledger/firefly-tezosconnect/cmd"
+	"github.com/hyperledger-firefly/tezosconnect/cmd"
 )
 
 func main() {

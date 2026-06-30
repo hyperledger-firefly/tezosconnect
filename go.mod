@@ -1,8 +1,8 @@
-module github.com/hyperledger/firefly-tezosconnect
+module github.com/hyperledger-firefly/tezosconnect
 
-go 1.23.0
+go 1.26.0
 
-toolchain go1.23.6
+toolchain go1.26.4
 
 require (
 	github.com/hashicorp/golang-lru v0.5.4

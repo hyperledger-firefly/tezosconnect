@@ -3,9 +3,9 @@
 #
 
 repository:
-  name: firefly-tezosconnect
+  name: tezosconnect
   description: Firefly Tezos Connect
-  homepage: https://github.com/hyperledger/firefly-tezosconnect
+  homepage: https://github.com/hyperledger-firefly/tezosconnect
   default_branch: main
   has_downloads: true
   has_issues: true

@@ -1,9 +1,9 @@
 package tezos
 
 import (
+	"github.com/stretchr/testify/mock"
 	"github.com/trilitech/tzgo/rpc"
 	"github.com/trilitech/tzgo/tezos"
-	"github.com/stretchr/testify/mock"
 	"testing"
 
 	"github.com/hyperledger/firefly-common/pkg/fftypes"
