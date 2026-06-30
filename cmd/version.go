@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 
 	"github.com/hyperledger/firefly-common/pkg/i18n"
-	"github.com/hyperledger/firefly-tezosconnect/internal/msgs"
+	"github.com/hyperledger-firefly/firefly-tezosconnect/internal/msgs"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 )

@@ -48,4 +48,4 @@ deps:
 reference:
 		$(VGO) test ./cmd -timeout=10s -tags docs
 docker:
-		docker build --build-arg BUILD_VERSION=${BUILD_VERSION} ${DOCKER_ARGS} -t hyperledger/firefly-tezosconnect .
+		docker build --build-arg BUILD_VERSION=${BUILD_VERSION} ${DOCKER_ARGS} -t hyperledger-firefly/firefly-tezosconnect .

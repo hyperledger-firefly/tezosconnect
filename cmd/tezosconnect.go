@@ -10,7 +10,7 @@ import (
 	"github.com/hyperledger/firefly-common/pkg/config"
 	"github.com/hyperledger/firefly-common/pkg/i18n"
 	"github.com/hyperledger/firefly-common/pkg/log"
-	"github.com/hyperledger/firefly-tezosconnect/internal/tezos"
+	"github.com/hyperledger-firefly/firefly-tezosconnect/internal/tezos"
 	fftmcmd "github.com/hyperledger/firefly-transaction-manager/cmd"
 	"github.com/hyperledger/firefly-transaction-manager/pkg/fftm"
 	txhandlerfactory "github.com/hyperledger/firefly-transaction-manager/pkg/txhandler/registry"
