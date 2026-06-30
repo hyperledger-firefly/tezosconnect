@@ -5,7 +5,7 @@ import (
 
 	"github.com/hyperledger/firefly-common/pkg/fftypes"
 	"github.com/hyperledger/firefly-common/pkg/i18n"
-	"github.com/hyperledger-firefly/firefly-tezosconnect/internal/msgs"
+	"github.com/hyperledger-firefly/tezosconnect/internal/msgs"
 	"github.com/hyperledger/firefly-transaction-manager/pkg/ffcapi"
 )
 

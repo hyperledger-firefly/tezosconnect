@@ -1,4 +1,4 @@
-module github.com/hyperledger-firefly/firefly-tezosconnect
+module github.com/hyperledger-firefly/tezosconnect
 
 go 1.26.0
 

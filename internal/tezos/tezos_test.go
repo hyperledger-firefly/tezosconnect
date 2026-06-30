@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/hyperledger/firefly-common/pkg/config"
-	"github.com/hyperledger-firefly/firefly-tezosconnect/mocks/tzrpcbackendmocks"
+	"github.com/hyperledger-firefly/tezosconnect/mocks/tzrpcbackendmocks"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )
