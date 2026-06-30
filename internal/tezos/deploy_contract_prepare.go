@@ -5,9 +5,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
+	"github.com/hyperledger-firefly/tezosconnect/internal/msgs"
 	"github.com/hyperledger/firefly-common/pkg/i18n"
 	"github.com/hyperledger/firefly-common/pkg/log"
-	"github.com/hyperledger-firefly/tezosconnect/internal/msgs"
 	"github.com/hyperledger/firefly-transaction-manager/pkg/ffcapi"
 	"github.com/trilitech/tzgo/codec"
 	"github.com/trilitech/tzgo/micheline"

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/trilitech/tzgo/rpc"
 	"github.com/hyperledger/firefly-transaction-manager/pkg/ffcapi"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+	"github.com/trilitech/tzgo/rpc"
 )
 
 func TestGetNextNonceOK(t *testing.T) {
