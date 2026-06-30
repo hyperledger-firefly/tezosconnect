@@ -1,15 +1,8 @@
+version: "2"
 run:
   tests: false
-issues:
-  exclude-dirs:
-    - "mocks"
-linters-settings:
-  gocritic:
-    enabled-checks: []
-    disabled-checks:
-      - regexpMust
 linters:
-  disable-all: true
+  default: none
   enable:
     - bodyclose
     - dogsled
@@ -17,19 +10,46 @@ linters:
     - goconst
     - gocritic
     - gocyclo
-    - gofmt
-    - goimports
     - goprintffuncname
     - gosec
-    - gosimple
     - govet
     - ineffassign
     - misspell
     - nakedret
     - revive
     - staticcheck
-    - stylecheck
-    - typecheck
     - unconvert
     - unparam
     - unused
+  settings:
+    gocritic:
+      disabled-checks:
+        - regexpMust
+    revive:
+      # unused-parameter is excluded due to methods with TODO implementation
+      rules:
+        - name: unused-parameter
+          disabled: true
+  exclusions:
+    generated: lax
+    presets:
+      - comments
+      - common-false-positives
+      - legacy
+      - std-error-handling
+    paths:
+      - mocks
+      - third_party$
+      - builtin$
+      - examples$
+formatters:
+  enable:
+    - gofmt
+    - goimports
+  exclusions:
+    generated: lax
+    paths:
+      - mocks
+      - third_party$
+      - builtin$
+      - examples$
