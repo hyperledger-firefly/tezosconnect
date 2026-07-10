@@ -5,14 +5,14 @@ go 1.26.0
 toolchain go1.26.4
 
 require (
-	github.com/hashicorp/golang-lru v0.5.4
+	github.com/hashicorp/golang-lru v1.0.2
 	github.com/hyperledger/firefly-common v1.5.4
 	github.com/hyperledger/firefly-transaction-manager v1.3.20
-	github.com/sirupsen/logrus v1.9.3
-	github.com/spf13/cobra v1.8.0
-	github.com/stretchr/testify v1.9.0
-	github.com/trilitech/tzgo v1.19.8
-	golang.org/x/text v0.37.0
+	github.com/sirupsen/logrus v1.9.4
+	github.com/spf13/cobra v1.10.2
+	github.com/stretchr/testify v1.10.0
+	github.com/trilitech/tzgo v1.25.0
+	golang.org/x/text v0.40.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -83,7 +83,7 @@ require (
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/spf13/pflag v1.0.9 // indirect
 	github.com/spf13/viper v1.18.2 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
