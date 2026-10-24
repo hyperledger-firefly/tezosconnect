@@ -3,6 +3,7 @@
 [![Hits-of-Code](https://hitsofcode.com/github/hyperledger-firefly/tezosconnect?branch=main)](https://hitsofcode.com/view/github/hyperledger-firefly/tezosconnect?branch=main)
 [![Go Reference](https://pkg.go.dev/badge/github.com/hyperledger-firefly/tezosconnect.svg)](https://pkg.go.dev/github.com/hyperledger-firefly/tezosconnect)
 [![License](https://img.shields.io/badge/apache-2.0-blue.svg)](https://github.com/hyperledger-firefly/tezosconnect/blob/main/LICENSE)
+[![OpenSSF Baseline](https://www.bestpractices.dev/projects/15853/baseline)](https://www.bestpractices.dev/projects/15853)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/hyperledger-firefly/tezosconnect/badge)](https://scorecard.dev/viewer/?uri=github.com/hyperledger-firefly/tezosconnect)
 
 # Hyperledger FireFly Tezos Connector
